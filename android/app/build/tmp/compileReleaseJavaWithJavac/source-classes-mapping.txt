@@ -1,0 +1,9 @@
+com/fooddeliveryapp/BuildConfig.java
+ com.fooddeliveryapp.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/fooddeliveryapp/MainActivity.java
+ com.fooddeliveryapp.MainActivity
+com/fooddeliveryapp/MainApplication.java
+ com.fooddeliveryapp.MainApplication
+ com.fooddeliveryapp.MainApplication$1
