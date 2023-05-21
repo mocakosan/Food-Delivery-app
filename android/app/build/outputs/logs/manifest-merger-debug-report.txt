@@ -5,9 +5,11 @@ INJECTED from /Users/js/Delivery/android/app/src/main/AndroidManifest.xml:1:1-25
 INJECTED from /Users/js/Delivery/android/app/src/main/AndroidManifest.xml:1:1-25:12
 INJECTED from /Users/js/Delivery/android/app/src/main/AndroidManifest.xml:1:1-25:12
 MERGED from /Users/js/Delivery/android/app/src/main/AndroidManifest.xml:1:1-25:12
+MERGED from [:react-native-flipper] /Users/js/Delivery/node_modules/react-native-flipper/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [com.facebook.flipper:flipper:0.99.0] /Users/js/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /Users/js/.gradle/caches/transforms-3/2c29b736c8f2a9d82fade7115b471d70/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /Users/js/.gradle/caches/transforms-3/e3a733608d857c466939da27af54ba77/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-async-storage_async-storage] /Users/js/Delivery/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] /Users/js/Delivery/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/js/Delivery/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.66.5] /Users/js/.gradle/caches/transforms-3/a1ba3f306341ff91bab22c03ad076a4f/transformed/jetified-react-native-0.66.5/AndroidManifest.xml:2:1-11:12
@@ -155,12 +157,16 @@ uses-sdk
 INJECTED from /Users/js/Delivery/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/js/Delivery/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/js/Delivery/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-flipper] /Users/js/Delivery/node_modules/react-native-flipper/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-flipper] /Users/js/Delivery/node_modules/react-native-flipper/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
 MERGED from [com.facebook.flipper:flipper:0.99.0] /Users/js/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.99.0] /Users/js/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /Users/js/.gradle/caches/transforms-3/2c29b736c8f2a9d82fade7115b471d70/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /Users/js/.gradle/caches/transforms-3/2c29b736c8f2a9d82fade7115b471d70/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /Users/js/.gradle/caches/transforms-3/e3a733608d857c466939da27af54ba77/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /Users/js/.gradle/caches/transforms-3/e3a733608d857c466939da27af54ba77/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/js/Delivery/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/js/Delivery/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/js/Delivery/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/js/Delivery/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/js/Delivery/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
