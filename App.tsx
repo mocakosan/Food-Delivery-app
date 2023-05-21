@@ -1,89 +1,65 @@
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import {
-  createNativeStackNavigator,
-  NativeStackScreenProps,
-} from "@react-navigation/native-stack";
-import {
-  Text,
-  View,
-  Button,
-  TouchableHighlight,
-  Pressable,
-} from "react-native";
-import { useCallback } from "react";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import Settings from "./src/pages/Settings";
+import Orders from "./src/pages/Orders";
+import Delivery from "./src/pages/Delivery";
+import { useState } from "react";
+import SignIn from "./src/pages/SignIn";
+import SignUp from "./src/pages/SignUp";
 
-type RootStackParamList = {
-  //페이지들의 목록
-  Home: undefined; //파라미터로 넣어 줄게 업으면 undifined
-  Details: { itemId: number; otherParam?: string };
+export type LoggedInParamList = {
+  Orders: undefined;
+  Settings: undefined;
+  Delivery: undefined;
+  Complete: { orderId: string };
 };
-type HomeScreenProps = NativeStackScreenProps<RootStackParamList, "Home">;
-type DetailsScreenProps = NativeStackScreenProps<RootStackParamList, "Details">;
 
-function HomeScreen({ navigation }: HomeScreenProps) {
-  const onClick = useCallback(() => {
-    navigation.navigate("Details");
-  }, [navigation]);
-  //flex: colum이 default 서로간의 비율
-  return (
-    <View style={{ flexDirection: "row" }}>
-      <View
-        style={{
-          flex: 2,
-          backgroundColor: "yellow",
-          alignItems: "flex-end",
-          justifyContent: "center",
-        }}
-      >
-        <Pressable
-          onPress={onClick}
-          style={{
-            paddingVertical: 20,
-            paddingHorizontal: 40,
-            backgroundColor: "blue",
-          }}
-        >
-          <Text style={{ color: "white" }}>HOME SCREEN</Text>
-        </Pressable>
-      </View>
-      <View style={{ flex: 5, backgroundColor: "orange" }}>
-        <Text>second</Text>
-      </View>
-    </View>
-  );
-}
+export type RootStackParamList = {
+  SignIn: undefined;
+  SignUp: undefined;
+};
 
-function DetailsScreen({ route, navigation }: DetailsScreenProps) {
-  /* 2. Get the param */
-  // const { itemId, otherParam } = route.params;
-  const onClick = useCallback(() => {
-    navigation.navigate("Home");
-  }, [navigation]);
-  return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <TouchableHighlight onPress={onClick}>
-        <Text>Details Screen</Text>
-      </TouchableHighlight>
-    </View>
-  );
-}
+const Tab = createBottomTabNavigator();
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
-const Stack = createNativeStackNavigator();
 function App() {
+  const [isLoggedIn, setLoggedIn] = useState(false);
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen
-          name="Home"
-          component={HomeScreen}
-          options={{ title: "제목" }}
-        />
-        <Stack.Screen name="Details" component={DetailsScreen} />
-        {/* <Stack.Screen name="Details">
-          {(props) => <DetailsScreen {...props} />}
-        </Stack.Screen> */}
-      </Stack.Navigator>
+      {isLoggedIn ? (
+        <Tab.Navigator>
+          <Tab.Screen
+            name="Orders"
+            component={Orders}
+            options={{ title: "오더 목록" }}
+          />
+          <Tab.Screen
+            name="Delivery"
+            component={Delivery}
+            options={{ headerShown: false }}
+          />
+          <Tab.Screen
+            name="Settings"
+            component={Settings}
+            options={{ title: "내 정보" }}
+          />
+        </Tab.Navigator>
+      ) : (
+        <Stack.Navigator>
+          <Stack.Screen
+            name="SignIn"
+            component={SignIn}
+            options={{ title: "로그인" }}
+          />
+          <Stack.Screen
+            name="SignUp"
+            component={SignUp}
+            options={{ title: "회원가입" }}
+          />
+        </Stack.Navigator>
+      )}
     </NavigationContainer>
   );
 }
