@@ -13,6 +13,10 @@ import java.util.ArrayList;
 
 // @react-native-async-storage/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// react-native-config
+import com.lugg.RNCConfig.RNCConfigPackage;
+// react-native-encrypted-storage
+import com.emeraldsanto.encryptedstorage.RNEncryptedStoragePackage;
 // react-native-flipper
 import com.facebook.flipper.reactnative.FlipperPackage;
 // react-native-safe-area-context
@@ -65,6 +69,8 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
+      new RNCConfigPackage(),
+      new RNEncryptedStoragePackage(),
       new FlipperPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage()
