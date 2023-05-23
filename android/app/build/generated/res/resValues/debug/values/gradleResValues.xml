@@ -8,7 +8,7 @@
     <!-- Value from build type: debug -->
     <integer name="react_native_inspector_proxy_port">8081</integer>
     <!-- Value from default config. -->
-    <string name="API_URL" translatable="false">"http://192.168.10.3:3105"</string>
+    <string name="API_URL" translatable="false">"http://172.30.1.95:3105"</string>
     <!-- Value from default config. -->
     <string name="build_config_package" translatable="false">com.fooddeliveryapp</string>
 

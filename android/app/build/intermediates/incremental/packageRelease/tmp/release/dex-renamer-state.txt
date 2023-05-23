@@ -1,4 +1,0 @@
-#Sat May 20 12:34:58 KST 2023
-base.0=/Users/js/Delivery/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
