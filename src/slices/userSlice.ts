@@ -24,6 +24,9 @@ const userSlice = createSlice({
       state.name = action.payload.name;
       state.accessToken = action.payload.accessToken;
     },
+    setName(state, action) {
+      state.name = action.payload;
+    },
     setAccessToken(state, action) {
       state.accessToken = action.payload;
     },

@@ -18,6 +18,13 @@ import Config from "react-native-config";
 import EncryptedStorage from "react-native-encrypted-storage";
 import userSlice from "./src/slices/userSlice";
 
+export type LoggedInParamList = {
+  Orders: undefined;
+  Settings: undefined;
+  Delivery: undefined;
+  Complete: { orderId: string };
+};
+
 export type RootStackParamList = {
   SignIn: undefined;
   SignUp: undefined;
@@ -88,6 +95,7 @@ function AppInner() {
       disconnect();
     }
   }, [isLoggedIn, disconnect]);
+
   useEffect(() => {
     axios.interceptors.response.use(
       (response) => {
