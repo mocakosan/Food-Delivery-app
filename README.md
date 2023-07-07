@@ -1,21 +1,4 @@
-### 1
-![KakaoTalk_Photo_2023-06-09-09-38-40 001](https://github.com/mocakosan/Food-Delivery-app/assets/90518232/a61f6130-d6b8-45e1-afd5-d845085b72e5)
-### 2
-![KakaoTalk_Photo_2023-06-09-09-38-40 004](https://github.com/mocakosan/Food-Delivery-app/assets/90518232/ca73c10a-118e-4f46-a1d7-adb4945cbb3a)
-### 3
-![KakaoTalk_Photo_2023-06-09-09-38-40 003](https://github.com/mocakosan/Food-Delivery-app/assets/90518232/39221cce-fc35-468c-9d70-350b85987735)
-### 4
-![KakaoTalk_Photo_2023-06-09-09-38-40 005](https://github.com/mocakosan/Food-Delivery-app/assets/90518232/7b8ae03a-7b1b-433c-bbec-2b724a4590bb)
-### 5
-![KakaoTalk_Photo_2023-06-09-09-38-40 006](https://github.com/mocakosan/Food-Delivery-app/assets/90518232/57d342e8-94a3-4de4-8974-9313cc7a7f9a)
-### 6
-![KakaoTalk_Photo_2023-06-09-09-38-40 007](https://github.com/mocakosan/Food-Delivery-app/assets/90518232/a7de4385-5ee5-4e30-ac88-ed5d5c0e7116)
-### 7
-![KakaoTalk_Photo_2023-06-09-09-38-40 008](https://github.com/mocakosan/Food-Delivery-app/assets/90518232/623b76d8-8daa-4a53-a4c2-6d19aa068959)
-### 8
-![KakaoTalk_Photo_2023-06-09-09-38-40 009](https://github.com/mocakosan/Food-Delivery-app/assets/90518232/525efb1b-3333-4f47-baf1-0cd265385909)
 
-[Delivery icons created by dreamicons - Flaticon](https://www.flaticon.com/free-icons/delivery)
 
 # 첫 시작(setting)
 
